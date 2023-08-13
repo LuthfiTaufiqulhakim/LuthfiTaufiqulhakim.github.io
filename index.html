@@ -204,42 +204,49 @@
     <!-- Akhir Project -->
 
     <!-- ContACT -->
-    <section id="contact">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col">
-            <h2>Contact Me</h2>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-md-4">
-          <form>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                aria-describedby="emailHelp"
-              />
-              <div id="emailHelp" class="form-text">
-                We'll never share your email with anyone else.
-              </div>
-            </div>
-            <div class="mb-3">
-              <label for="floatingTextarea2">Pesan</label>
-              <textarea
-                class="form-control"
-                placeholder="Ketik disini"
-                id="floatingTextarea2"
-                style="height: 100px"
-              ></textarea>
-            </div>
 
-            <button type="submit" class="btn btn-primary">Kirim</button>
-          </form>
-        </div>
+    <section id="contact" style="margin-top: 50px; margin-bottom: 0px">
+      <div class="container">
+        <h2 style="text-align: center">Contact Me</h2>
+        <form
+          target="_blank"
+          action="https://formsubmit.co/f372b075a582ae3648e13e40d8e2c9e6"
+          method="POST"
+          style="display: flex; flex-direction: column"
+        >
+          <div class="col" style="margin-bottom: 20px; display: flex">
+            <input
+              type="text"
+              name="name"
+              class="form-control"
+              placeholder="Your Name"
+              required
+              style="flex: 1; margin-right: 10px"
+            />
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              placeholder="Your Email"
+              required
+              style="flex: 1"
+            />
+          </div>
+
+          <div class="col" style="margin-bottom: 20px">
+            <textarea
+              placeholder="Your Message"
+              class="form-control"
+              name="message"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-lg btn-dark btn-block">
+            Send
+          </button>
+        </form>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
